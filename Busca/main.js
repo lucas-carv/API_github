@@ -3,9 +3,6 @@
     const profile = document.getElementById("profile");
     const url = "https://api.github.com/users";
 
-    //const client_id = "Iv1.c65b570293f9ce30";
-    //const client_secret = "9b0464f2dc5d79700f3db2f4c63ba431203cc9ef";
-
     async function getUser(user) {
         //const profileResponse = await fetch(`${url}/${user}?client_id=${client_id}&client_secret=${client_secret}`);
         const profileResponse = await fetch(`${url}/${user}`)
